@@ -3,7 +3,7 @@ using namespace std;
 typedef long long int ll;
 
 int main() {
-	
+    
 	ll sum=0;
 	
 	l1: ;
