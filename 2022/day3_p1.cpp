@@ -10,6 +10,7 @@ int main() {
 	for(string s; getline(cin, s);) {
 	    string s1 = s.substr(0, s.length()/2);
         string s2 = s.substr(s.length()/2);
+		
         for(int i=0; i<s1.length(); i++) {
             for(int j=0; j<s1.length(); j++){
                 if(s[i]==s2[j]) {
